@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 using namespace std;
 
 /* Ask the user for the cost of an item.
@@ -33,7 +34,7 @@ int main() {
 		total += make_transaction();
 	}
 	cout << "Your total is $" << fixed << setprecision(2) << total << endl;
-	cout << "Please enter the amount of money you will give to the cashier: ";
+	cout << "Please enter the amount of money you will give to the cashier: $";
 	cin >> cash;
 	change = cash - total;
 	cout << "Your change is $" << fixed << setprecision(2) << change << endl;
@@ -44,7 +45,7 @@ int main() {
 
 double make_transaction() {
 	double cost;
-	cout << "Please enter the price of your transaction: ";
+	cout << "Please enter the price of your transaction: $";
 	cin >> cost;
 	return cost;
 }
@@ -60,13 +61,12 @@ bool decide() {
 }
 
 void calculate_change(double change) {
-	int dollars, quarters, dimes, nickels, pennies, coins;
-
+	int dollars, quarters, dimes, nickels, pennies, coins, newChange;
 	dollars = change;
-	change *= 100;
-	coins = change - dollars * 100;
+	newChange = round(change * 100);
+	coins = newChange - (dollars * 100);
 	quarters = coins / 25;
-	dimes = coins % 25 / 10;
+	dimes = (coins % 25) / 10;
 	nickels = coins % 25 % 10 / 5;
 	pennies = coins % 25 % 10 % 5;
 
