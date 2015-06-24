@@ -70,7 +70,9 @@ void calculate_change(double change) {
 	nickels = coins % 25 % 10 / 5;
 	pennies = coins % 25 % 10 % 5;
 
-	cout << "This amounts to " << dollars << " dollars, " << quarters << " quarters, " <<
-			dimes << " dimes, " << nickels << " nickels, and " << pennies << " pennies." <<
-			endl;
+	cout << "This amounts to " << dollars << (dollars != 1 ? " dollars, " : " dollar, ")
+			<< quarters << (quarters != 1 ? " quarters, " : " quarter, ")
+			<< dimes << (dimes != 1 ? " dimes, " : " dime, ")
+			<< nickels << (nickels != 1 ? " nickels, and " : " nickel, and ")
+			<< pennies << (pennies != 1 ? " pennies." : " penny.") << endl;
 }
