@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  X4.cpp
+X4.cpp(13): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  All 69 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  X4.vcxproj -> C:\Users\elcowle\Source\Repos\CPlusPlus-Programs\Ch5\Release\X4.exe
+  X4.vcxproj -> C:\Users\elcowle\Source\Repos\CPlusPlus-Programs\Ch5\Release\X4.pdb (Full PDB)

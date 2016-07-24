@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  X4.cpp
+c:\users\elcowle\source\repos\cplusplus-programs\ch5\x4\x4.cpp(13): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  X4.vcxproj -> C:\Users\elcowle\Source\Repos\CPlusPlus-Programs\Ch5\Debug\X4.exe
+  X4.vcxproj -> C:\Users\elcowle\Source\Repos\CPlusPlus-Programs\Ch5\Debug\X4.pdb (Full PDB)
