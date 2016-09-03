@@ -1,0 +1,4 @@
+﻿  X3.7.6.cpp
+c:\users\elcowle.redmond\source\repos\cplusplus-programs\learncppch3\x3.7.6\x3.7.6.cpp(33): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+  X3.7.6.vcxproj -> C:\Users\elcowle.REDMOND\Source\Repos\CPlusPlus-Programs\LearnCPPCh3\x64\Debug\X3.7.6.exe
+  X3.7.6.vcxproj -> C:\Users\elcowle.REDMOND\Source\Repos\CPlusPlus-Programs\LearnCPPCh3\x64\Debug\X3.7.6.pdb (Full PDB)
