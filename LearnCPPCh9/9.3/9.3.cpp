@@ -12,6 +12,8 @@
 #include "stdafx.h"
 #include <iostream>
 
+using namespace std;
+
 class Fraction
 {
 private:
@@ -43,7 +45,8 @@ public:
 	friend Fraction operator*(const Fraction &f1, const Fraction &f2);
 	friend Fraction operator*(const Fraction &f1, int value);
 	friend Fraction operator*(int value, const Fraction &f1);
-	friend 
+	friend ostream& operator<<(ostream& out, const Fraction &f);
+	friend istream& operator>> (istream& in, Fraction &f);
 
 	void print()
 	{
@@ -64,6 +67,23 @@ Fraction operator*(const Fraction &f1, int value)
 Fraction operator*(int value, const Fraction &f1)
 {
 	return Fraction(f1.m_numerator * value, f1.m_denominator);
+}
+
+ostream & operator<<(ostream & out, const Fraction & f)
+{
+	out << f.m_numerator << "/" << f.m_denominator;
+	return out;
+}
+
+istream & operator >> (istream & in, Fraction & f)
+{
+	char c;
+
+	in >> f.m_numerator;
+	in >> c; // ignore the '/' separator
+	in >> f.m_denominator;
+
+	return in;
 }
 
 int main()
