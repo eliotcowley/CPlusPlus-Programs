@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  HTML-to-GDNP.cpp
+c:\users\elcowle.redmond\source\repos\cplusplus-programs\html-to-gdnp\html-to-gdnp\html-to-gdnp.cpp(25): warning C4129: 'e': unrecognized character escape sequence
+  LINK : C:\Users\elcowle.REDMOND\Source\Repos\CPlusPlus-Programs\HTML-to-GDNP\Debug\HTML-to-GDNP.exe not found or not built by the last incremental link; performing full link
+  HTML-to-GDNP.vcxproj -> C:\Users\elcowle.REDMOND\Source\Repos\CPlusPlus-Programs\HTML-to-GDNP\Debug\HTML-to-GDNP.exe
+  HTML-to-GDNP.vcxproj -> C:\Users\elcowle.REDMOND\Source\Repos\CPlusPlus-Programs\HTML-to-GDNP\Debug\HTML-to-GDNP.pdb (Full PDB)
