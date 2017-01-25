@@ -1,0 +1,5 @@
+﻿  X4.cpp
+c:\users\elcowle.redmond\source\repos\cplusplus-programs\ch10\x4\x4.cpp(10): warning C4273: 'atoi': inconsistent dll linkage
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(442): note: see previous definition of 'atoi'
+  X4.vcxproj -> C:\Users\elcowle.REDMOND\Source\Repos\CPlusPlus-Programs\Ch10\X1\Debug\X4.exe
+  X4.vcxproj -> C:\Users\elcowle.REDMOND\Source\Repos\CPlusPlus-Programs\Ch10\X1\Debug\X4.pdb (Full PDB)
